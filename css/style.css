@@ -1,0 +1,108 @@
+body {
+  background-color: #E5E5E5;
+  font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+}
+
+nav .navbar {
+  background: #F4F3EE !important;
+}
+
+nav .navbar-brand {
+  font-size: 38px;
+}
+
+nav .nav-link {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #8D8D8D !important;
+}
+
+nav .nav-link:hover {
+  color: #a7a7a7 !important;
+}
+
+nav .nav-link.active {
+  color: #C32C72 !important;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 0 40px 0;
+}
+
+.heading h1 {
+  font-size: 34px;
+  margin: 0 auto;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxes .boxes-item {
+  height: 263px;
+  width: 264px;
+  margin-right: 32px;
+  border-radius: 1rem;
+  background-color: #F4F3EE;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.boxes .boxes-item.lined {
+  background-color: white !important;
+  border: 3px solid #C32C72;
+}
+
+.boxes .boxes-item.filled {
+  background-color: #C32C72 !important;
+  border: 3px solid white;
+}
+
+footer {
+  background: #F4F3EE !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  padding: 8px 0 8px 0;
+  color: #8D8D8D !important;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

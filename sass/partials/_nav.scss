@@ -1,0 +1,25 @@
+nav {
+
+    .navbar {
+        background: map-get($colors, primary) !important;
+    }
+    
+    .navbar-brand {
+        font-size: 38px;
+    }
+
+    .nav-link {
+        font-family: $font-secondary;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: map-get($colors, primary3) !important;
+    }
+
+    .nav-link:hover {
+        color: lighten($color: map-get($colors, primary3), $amount: 10) !important;
+    }
+
+    .nav-link.active {
+        color: map-get($colors, pink-color) !important;
+    }
+}

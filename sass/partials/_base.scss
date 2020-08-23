@@ -1,0 +1,5 @@
+body {
+    background-color: map-get($colors, body);
+    font-family: $font-primary;
+    max-width: 1440px;
+}
